@@ -1,6 +1,8 @@
 # df-mod2-forensic-copy
 
-This repository contains scripts and files related to Module 2 of the Digital Forensics course. The scripts provided here are designed to facilitate the creation of forensic copies of digital evidence files for investigation purposes.
+Welcome - this repository is designed to help users develop PowerShell skills for digital forensics purposes. The primary focus is on copying forensic evidence and verifying the copied data with hash values to ensure the integrity of the evidence.
+
+The repository provides a collection of PowerShell scripts and resources to facilitate building practical skills in digital forensics.
 
 ## Overview
 
@@ -22,4 +24,5 @@ The scripts included in this repository automate the process of copying evidence
 2. Place the original evidence files in the `evidence` directory within the repository directory.
 3. Run the following command in PowerShell to create forensic copies of evidence files:
 
-
+powershell
+.\evidence_copy.ps1
